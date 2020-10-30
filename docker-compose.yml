@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  ser_hw_app:
+    build:
+      context: .
+      dockerfile: sample.dockerfile
+    ports:
+      - 80:8080
